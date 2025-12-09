@@ -236,7 +236,7 @@ final class Unified_RSS_Curator {
 							<button type="button" id="urf-verify-btn" class="button button-secondary">Test Connection</button>
 							<span id="urf-verify-msg" style="margin-left:10px; font-weight:bold;"></span>
 							<p class="description">
-								Obtain your API Key from <a href="https://venice.ai/dashboard" target="_blank" rel="noopener">Venice.ai Dashboard</a>.
+								Obtain your API Key from <a href="https://venice.ai/settings/api" target="_blank" rel="noopener">Venice.ai Dashboard</a>.
 							</p>
 						</td>
 					</tr>
