@@ -1,0 +1,52 @@
+.urf-feed-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.urf-feed-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.urf-feed-item {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    transition: box-shadow 0.2s ease;
+}
+
+.urf-feed-item:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.urf-item-title {
+    margin: 0 0 10px 0;
+    font-size: 1.25rem;
+}
+
+.urf-item-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.urf-item-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.urf-item-excerpt {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.urf-read-more {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+}
